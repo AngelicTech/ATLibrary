@@ -5,14 +5,12 @@
 
 // ******************************************************************
 //
-// Program Name   : Angelic Tech Android Library
-// Program Version: 2017
+// Program Name   : AT Library
 // Platform(s)    : Android
-// Framework      : None
+// Framework      : FMX
 //
 // Filename       : AT.Android.Folders.pas
-// File Version   : 2017.04
-// Date Created   : 10-Apr-2017
+// Date Created   : 22-Nov-2020
 // Author         : Matthew Vesperman
 //
 // Description:
@@ -25,7 +23,7 @@
 //
 // ******************************************************************
 //
-// COPYRIGHT © 2017 - PRESENT Angelic Technology
+// COPYRIGHT © 2020 - PRESENT Angelic Technology
 // ALL RIGHTS RESERVED WORLDWIDE
 //
 // ******************************************************************
