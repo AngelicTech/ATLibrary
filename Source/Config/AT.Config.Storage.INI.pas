@@ -51,6 +51,9 @@ type
     procedure DeleteEntry(const sSection: String; const sEntry: String);
         override;
     procedure DeleteSection(const sSection: String); override;
+    function HasEntry(const sSection: String; const
+        sEntry: String): Boolean;
+    function HasSection(const sSection: String): Boolean;
     function ReadBoolean(const sSection: String; const sEntry: String; const
         bDefault: Boolean): Boolean; override;
     function ReadCurrency(const sSection: String; const sEntry: String; const
@@ -131,6 +134,50 @@ end;
 destructor TATConfigIniStorage.Destroy;
 begin
   inherited Destroy;
+end;
+
+function TATConfigIniStorage.HasEntry(const sSection,
+  sEntry: String): Boolean;
+begin
+
+  var AFileName: String := FileName;
+  if ( AFileName.IsEmpty ) then
+    exit (False);
+
+  var Ini := CreateIni;
+  try
+    if (Assigned(Ini)) then
+      begin
+        Result := Ini.ValueExists(sSection, sEntry);
+      end
+    else
+      Result := False;
+  finally
+    Ini.Free;
+  end;
+
+end;
+
+function TATConfigIniStorage.HasSection(
+  const sSection: String): Boolean;
+begin
+
+  var AFileName: String := FileName;
+  if ( AFileName.IsEmpty ) then
+    exit (False);
+
+  var Ini := CreateIni;
+  try
+    if (Assigned(Ini)) then
+      begin
+        Result := Ini.SectionExists(sSection);
+      end
+    else
+      Result := False;
+  finally
+    Ini.Free;
+  end;
+
 end;
 
 function TATConfigIniStorage.CreateIni: TIniFile;
