@@ -1,14 +1,12 @@
 // ******************************************************************
 //
-// Program Name   : @Library
-// Program Version: 1.00
-// Platform(s)    : OS X, Win32, Win64
-// Framework      : VCL, FireMonkey
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
 //
 // Filename       : AT.Config.Storage.SQLite3.pas
-// File Version   : 1.00
 // Date Created   : 12-AUG-2016
-// Author         : Matthew S. Vesperman
+// Author         : Matthew Vesperman
 //
 // Description:
 //
@@ -25,6 +23,9 @@
 //
 // ******************************************************************
 
+/// <summary>
+///   SQLite 3 based configuration storage class.
+/// </summary>
 unit AT.Config.Storage.SQLite3;
 
 interface
@@ -35,7 +36,7 @@ uses
   {$ENDIF}
   System.Classes, AT.Config.Storage.Custom, System.SysUtils,
   Data.DB, DBAccess, AT.GarbageCollector, System.SyncObjs,
-  Uni, UniProvider, SQLiteUniProvider;
+  Uni, UniProvider, SQLiteUniProvider, AT.Config.Storahe.Intf;
 
 type
   EATCfgSQLite3Encrypted = class(Exception)
@@ -44,7 +45,8 @@ type
   EATCfgSQLite3InvalidKey = class(Exception)
   end;
 
-  TATConfigSQLite3Storage = class(TATCustomConfigStorage)
+  TATConfigSQLite3Storage = class(TATCustomConfigStorage,
+      ICfgStgDelete, ICfgStgQuery, ICfgStgRead, ICfgStgWrite))
   strict private
     FProvider: TSQLiteUniProvider;
     FConnection: TUniConnection;

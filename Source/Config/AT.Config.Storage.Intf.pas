@@ -1,3 +1,31 @@
+//************************************************************************
+//
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
+//
+// Filename       : AT.Config.Storage.Intf.pas
+// Date Created   : 01-AUG-2014
+// Author         : Matthew Vesperman
+//
+// Description:
+//
+// Configuration storage interfaces.
+//
+// Revision History:
+//
+// v1.00   :   Initial version
+//
+//************************************************************************
+//
+// COPYRIGHT © 2014 Angelic Technology
+// ALL RIGHTS RESERVED WORLDWIDE
+//
+//************************************************************************
+
+/// <summary>
+///   Configuration storage interfaces.
+/// </summary>
 unit AT.Config.Storage.Intf;
 
 interface

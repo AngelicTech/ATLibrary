@@ -8,7 +8,7 @@ This library is designed specifically for use with [Embarcadero Delphi](https://
 
 AT Library is a collection of routines that have been developed for use by Angelic Technology over many years (Since Delphi 7). Some of the routines may be reduntant or obsolete at this point. Use this library at your own risk.
 
-## List / description of Units
+## List / Description of Units
 
 ### Android
 
@@ -103,5 +103,32 @@ String value replacement routines.
 #### AT.Validate.pas
 
 Data validation routines.
+
+### Config
+
+#### AT.Config.Storage.Custom.pas
+
+Custom configuration storage class.
+
+#### AT.Config.Storage.INI.pas
+
+INI file based configuration storage class.
+
+#### AT.Config.Storage.Intf.pas
+
+Configuration storage interfaces.
+
+#### AT.Config.Storage.SQLite3.pas
+
+SQLite 3 based configuration storage class.
+
+#### AT.Config.Storage.XML.pas
+
+XML file based configuration storage class.
+
+#### AT.Preferences.IniFiles.Apple.pas
+
+A TCustomIniFile descendant that delegates to the CoreFoundation Preferences API. 
+
 
 

@@ -1,13 +1,12 @@
 //************************************************************************
 //
-// Program Name   : @Library
-// Program Version: 1.00
-// Platforms      : Win32, Win64
-// Framework      : VCL, FireMonkey
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
+//
 // Filename       : AT.Config.Storage.INI.pas
-// File Version   : 1.10
 // Date Created   : 01-AUG-2014
-// Author         : Matthew S. Vesperman
+// Author         : Matthew Vesperman
 //
 // Description:
 //
@@ -25,16 +24,20 @@
 //
 //************************************************************************
 
+/// <summary>
+///   INI file based configuration storage class.
+/// </summary>
 unit AT.Config.Storage.INI;
 
 interface
 
 uses
   System.Classes, AT.Config.Storage.Custom, System.SysUtils,
-  System.IniFiles;
+  System.IniFiles, AT.Config.Storage.Intf;
 
 type
-  TATConfigIniStorage = class(TATCustomConfigStorage)
+  TATConfigIniStorage = class(TATCustomConfigStorage,
+      ICfgStgDelete, ICfgStgQuery, ICfgStgRead, ICfgStgWrite)
   strict private
     FFileName: TFileName;
     function CreateIni: TIniFile; virtual;

@@ -1,3 +1,38 @@
+//Only compile for the MacOS and iOS platforms.
+{$IF ( NOT Defined(MACOS) )}
+  {$MESSAGE Fatal 'AT.Preferences.IniFiles.Apple.pas only compiles for the MacOS and iOS platforms.'}
+{$ENDIF}
+
+// ******************************************************************
+//
+// Program Name   : AT Library
+// Platform(s)    : iOS, MacOS
+// Framework      : Console, FMX
+//
+// Filename       : AT.Preferences.IniFiles.Apple.pas
+// Date Created   : 22-Nov-2020
+// Author         : Matthew Vesperman
+//
+// Description:
+//
+// TCustomIniFile descendant that delegates to the Core Foundation
+// Preferences API.
+//
+// Revision History:
+//
+// v1.00   :   Initial version
+//
+// ******************************************************************
+//
+// COPYRIGHT © 2020 - PRESENT Angelic Technology
+// ALL RIGHTS RESERVED WORLDWIDE
+//
+// ******************************************************************
+
+/// <summary>
+///   A TCustomIniFile descendant that delegates to the Core
+///   Foundation Preferences API.
+/// </summary>
 unit AT.Preferences.IniFiles.Apple;
 
 {
@@ -28,12 +63,10 @@ interface
 
 uses
   System.SysUtils, System.Classes, System.IniFiles, System.DateUtils,
-  System.StrUtils
-  {$IFDEF MACOS}, Macapi.CoreFoundation{$ENDIF};
+  System.StrUtils, Macapi.CoreFoundation;
 
 type
   TApplePreferencesIniFile = class(TCustomIniFile)
-  {$IFDEF MACOS}
   strict private
     FAllKeysCache: TArray<string>;
     FApplicationID: CFStringRef;
@@ -97,26 +130,9 @@ type
     property ApplicationID: string read FApplicationIDStr;
     property Delimiter: Char read FDelimiter write FDelimiter default
       DefaultDelimiter;
-  {$ELSE}
-  public
-    constructor Create; platform;
-  {$ENDIF}
   end;
 
 implementation
-
-{$IFNDEF MACOS}
-
-resourcestring
-  SNotSupportedError = 'TApplePreferencesIniFile only supported when ' +
-    'targeting OS X or iOS';
-
-constructor TApplePreferencesIniFile.Create;
-begin
-  raise ENotSupportedException.CreateRes(@SNotSupportedError);
-end;
-
-{$ELSE}
 
 function CFDateCreateFromTDateTime(const DateTime: TDateTime): CFDateRef;
 var
