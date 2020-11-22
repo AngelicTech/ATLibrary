@@ -1,0 +1,2 @@
+inherited fraGenericTab: TfraGenericTab
+end

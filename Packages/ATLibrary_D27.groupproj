@@ -1,0 +1,264 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{41546780-4590-44BD-AC15-4CAD510181F2}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ATSystem_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ATVclActions_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgn_ATVclActions_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ATFmxActions_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgn_ATFmxActions_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ATFmxCtlStd_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgn_ATFmxCtlStd_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgnedt_ATFmxCtlStd_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ATFmxGraphics_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgn_ATFmxGraphics_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ATFmxLayouts_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgn_ATFmxLayouts_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ATFmxCtlAdv_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgn_ATFmxCtlAdv_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ATVclGraphics_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgn_ATVclGraphics_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="AT_DX_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgn_AT_DX_D27.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgnATDXNativeFileSelector.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dgnATDXNativePrintPane.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ATSystem_D27">
+        <MSBuild Projects="ATSystem_D27.dproj"/>
+    </Target>
+    <Target Name="ATSystem_D27:Clean">
+        <MSBuild Projects="ATSystem_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ATSystem_D27:Make">
+        <MSBuild Projects="ATSystem_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ATVclActions_D27">
+        <MSBuild Projects="ATVclActions_D27.dproj"/>
+    </Target>
+    <Target Name="ATVclActions_D27:Clean">
+        <MSBuild Projects="ATVclActions_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ATVclActions_D27:Make">
+        <MSBuild Projects="ATVclActions_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgn_ATVclActions_D27">
+        <MSBuild Projects="dgn_ATVclActions_D27.dproj"/>
+    </Target>
+    <Target Name="dgn_ATVclActions_D27:Clean">
+        <MSBuild Projects="dgn_ATVclActions_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgn_ATVclActions_D27:Make">
+        <MSBuild Projects="dgn_ATVclActions_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ATFmxActions_D27">
+        <MSBuild Projects="ATFmxActions_D27.dproj"/>
+    </Target>
+    <Target Name="ATFmxActions_D27:Clean">
+        <MSBuild Projects="ATFmxActions_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ATFmxActions_D27:Make">
+        <MSBuild Projects="ATFmxActions_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgn_ATFmxActions_D27">
+        <MSBuild Projects="dgn_ATFmxActions_D27.dproj"/>
+    </Target>
+    <Target Name="dgn_ATFmxActions_D27:Clean">
+        <MSBuild Projects="dgn_ATFmxActions_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgn_ATFmxActions_D27:Make">
+        <MSBuild Projects="dgn_ATFmxActions_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ATFmxCtlStd_D27">
+        <MSBuild Projects="ATFmxCtlStd_D27.dproj"/>
+    </Target>
+    <Target Name="ATFmxCtlStd_D27:Clean">
+        <MSBuild Projects="ATFmxCtlStd_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ATFmxCtlStd_D27:Make">
+        <MSBuild Projects="ATFmxCtlStd_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgn_ATFmxCtlStd_D27">
+        <MSBuild Projects="dgn_ATFmxCtlStd_D27.dproj"/>
+    </Target>
+    <Target Name="dgn_ATFmxCtlStd_D27:Clean">
+        <MSBuild Projects="dgn_ATFmxCtlStd_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgn_ATFmxCtlStd_D27:Make">
+        <MSBuild Projects="dgn_ATFmxCtlStd_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgnedt_ATFmxCtlStd_D27">
+        <MSBuild Projects="dgnedt_ATFmxCtlStd_D27.dproj"/>
+    </Target>
+    <Target Name="dgnedt_ATFmxCtlStd_D27:Clean">
+        <MSBuild Projects="dgnedt_ATFmxCtlStd_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgnedt_ATFmxCtlStd_D27:Make">
+        <MSBuild Projects="dgnedt_ATFmxCtlStd_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ATFmxGraphics_D27">
+        <MSBuild Projects="ATFmxGraphics_D27.dproj"/>
+    </Target>
+    <Target Name="ATFmxGraphics_D27:Clean">
+        <MSBuild Projects="ATFmxGraphics_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ATFmxGraphics_D27:Make">
+        <MSBuild Projects="ATFmxGraphics_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgn_ATFmxGraphics_D27">
+        <MSBuild Projects="dgn_ATFmxGraphics_D27.dproj"/>
+    </Target>
+    <Target Name="dgn_ATFmxGraphics_D27:Clean">
+        <MSBuild Projects="dgn_ATFmxGraphics_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgn_ATFmxGraphics_D27:Make">
+        <MSBuild Projects="dgn_ATFmxGraphics_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ATFmxLayouts_D27">
+        <MSBuild Projects="ATFmxLayouts_D27.dproj"/>
+    </Target>
+    <Target Name="ATFmxLayouts_D27:Clean">
+        <MSBuild Projects="ATFmxLayouts_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ATFmxLayouts_D27:Make">
+        <MSBuild Projects="ATFmxLayouts_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgn_ATFmxLayouts_D27">
+        <MSBuild Projects="dgn_ATFmxLayouts_D27.dproj"/>
+    </Target>
+    <Target Name="dgn_ATFmxLayouts_D27:Clean">
+        <MSBuild Projects="dgn_ATFmxLayouts_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgn_ATFmxLayouts_D27:Make">
+        <MSBuild Projects="dgn_ATFmxLayouts_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ATFmxCtlAdv_D27">
+        <MSBuild Projects="ATFmxCtlAdv_D27.dproj"/>
+    </Target>
+    <Target Name="ATFmxCtlAdv_D27:Clean">
+        <MSBuild Projects="ATFmxCtlAdv_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ATFmxCtlAdv_D27:Make">
+        <MSBuild Projects="ATFmxCtlAdv_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgn_ATFmxCtlAdv_D27">
+        <MSBuild Projects="dgn_ATFmxCtlAdv_D27.dproj"/>
+    </Target>
+    <Target Name="dgn_ATFmxCtlAdv_D27:Clean">
+        <MSBuild Projects="dgn_ATFmxCtlAdv_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgn_ATFmxCtlAdv_D27:Make">
+        <MSBuild Projects="dgn_ATFmxCtlAdv_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ATVclGraphics_D27">
+        <MSBuild Projects="ATVclGraphics_D27.dproj"/>
+    </Target>
+    <Target Name="ATVclGraphics_D27:Clean">
+        <MSBuild Projects="ATVclGraphics_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ATVclGraphics_D27:Make">
+        <MSBuild Projects="ATVclGraphics_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgn_ATVclGraphics_D27">
+        <MSBuild Projects="dgn_ATVclGraphics_D27.dproj"/>
+    </Target>
+    <Target Name="dgn_ATVclGraphics_D27:Clean">
+        <MSBuild Projects="dgn_ATVclGraphics_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgn_ATVclGraphics_D27:Make">
+        <MSBuild Projects="dgn_ATVclGraphics_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AT_DX_D27">
+        <MSBuild Projects="AT_DX_D27.dproj"/>
+    </Target>
+    <Target Name="AT_DX_D27:Clean">
+        <MSBuild Projects="AT_DX_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AT_DX_D27:Make">
+        <MSBuild Projects="AT_DX_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgn_AT_DX_D27">
+        <MSBuild Projects="dgn_AT_DX_D27.dproj"/>
+    </Target>
+    <Target Name="dgn_AT_DX_D27:Clean">
+        <MSBuild Projects="dgn_AT_DX_D27.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgn_AT_DX_D27:Make">
+        <MSBuild Projects="dgn_AT_DX_D27.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgnATDXNativeFileSelector">
+        <MSBuild Projects="dgnATDXNativeFileSelector.dproj"/>
+    </Target>
+    <Target Name="dgnATDXNativeFileSelector:Clean">
+        <MSBuild Projects="dgnATDXNativeFileSelector.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgnATDXNativeFileSelector:Make">
+        <MSBuild Projects="dgnATDXNativeFileSelector.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dgnATDXNativePrintPane">
+        <MSBuild Projects="dgnATDXNativePrintPane.dproj"/>
+    </Target>
+    <Target Name="dgnATDXNativePrintPane:Clean">
+        <MSBuild Projects="dgnATDXNativePrintPane.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dgnATDXNativePrintPane:Make">
+        <MSBuild Projects="dgnATDXNativePrintPane.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ATSystem_D27;ATVclActions_D27;dgn_ATVclActions_D27;ATFmxActions_D27;dgn_ATFmxActions_D27;ATFmxCtlStd_D27;dgn_ATFmxCtlStd_D27;dgnedt_ATFmxCtlStd_D27;ATFmxGraphics_D27;dgn_ATFmxGraphics_D27;ATFmxLayouts_D27;dgn_ATFmxLayouts_D27;ATFmxCtlAdv_D27;dgn_ATFmxCtlAdv_D27;ATVclGraphics_D27;dgn_ATVclGraphics_D27;AT_DX_D27;dgn_AT_DX_D27;dgnATDXNativeFileSelector;dgnATDXNativePrintPane"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ATSystem_D27:Clean;ATVclActions_D27:Clean;dgn_ATVclActions_D27:Clean;ATFmxActions_D27:Clean;dgn_ATFmxActions_D27:Clean;ATFmxCtlStd_D27:Clean;dgn_ATFmxCtlStd_D27:Clean;dgnedt_ATFmxCtlStd_D27:Clean;ATFmxGraphics_D27:Clean;dgn_ATFmxGraphics_D27:Clean;ATFmxLayouts_D27:Clean;dgn_ATFmxLayouts_D27:Clean;ATFmxCtlAdv_D27:Clean;dgn_ATFmxCtlAdv_D27:Clean;ATVclGraphics_D27:Clean;dgn_ATVclGraphics_D27:Clean;AT_DX_D27:Clean;dgn_AT_DX_D27:Clean;dgnATDXNativeFileSelector:Clean;dgnATDXNativePrintPane:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ATSystem_D27:Make;ATVclActions_D27:Make;dgn_ATVclActions_D27:Make;ATFmxActions_D27:Make;dgn_ATFmxActions_D27:Make;ATFmxCtlStd_D27:Make;dgn_ATFmxCtlStd_D27:Make;dgnedt_ATFmxCtlStd_D27:Make;ATFmxGraphics_D27:Make;dgn_ATFmxGraphics_D27:Make;ATFmxLayouts_D27:Make;dgn_ATFmxLayouts_D27:Make;ATFmxCtlAdv_D27:Make;dgn_ATFmxCtlAdv_D27:Make;ATVclGraphics_D27:Make;dgn_ATVclGraphics_D27:Make;AT_DX_D27:Make;dgn_AT_DX_D27:Make;dgnATDXNativeFileSelector:Make;dgnATDXNativePrintPane:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

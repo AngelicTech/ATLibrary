@@ -1,0 +1,169 @@
+inherited DNAProxySettingsDlg: TDNAProxySettingsDlg
+  Caption = 'Proxy Settings'
+  DesignerMasterStyle = 0
+  inherited pnlButtons: TPanel
+    TabOrder = 1
+  end
+  inherited layContents: TLayout
+    Size.Height = 324.000000000000000000
+    TabOrder = 0
+    inherited gbxInfo: TGroupBox
+      Align = Top
+      Margins.Bottom = 16.000000000000000000
+      Size.Height = 146.000000000000000000
+      Text = 'Proxy Server'
+      object txtServerName: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        Position.X = 16.000000000000000000
+        Position.Y = 48.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 48.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Enter the proxy server name or IP address.'
+        OnExit = EditExit
+        object btnClearServer: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object lblServerName: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 39.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Server:'
+        end
+      end
+      object seServerPort: TSpinBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        Cursor = crIBeam
+        DecimalDigits = 0
+        Min = 1.000000000000000000
+        Max = 65535.000000000000000000
+        Value = 80.000000000000000000
+        Position.X = 16.000000000000000000
+        Position.Y = 94.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 24.000000000000000000
+        Margins.Right = 200.000000000000000000
+        Size.Width = 136.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        object lblServerPort: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 28.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Port:'
+        end
+      end
+    end
+    object gbxAuthenticate: TGroupBox
+      Align = Client
+      StyledSettings = [Family, Size, FontColor, Other]
+      Margins.Bottom = 16.000000000000000000
+      Size.Width = 352.000000000000000000
+      Size.Height = 146.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Authentication'
+      TextSettings.Font.Style = [fsBold]
+      TabOrder = 1
+      object txtUserName: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        Position.X = 16.000000000000000000
+        Position.Y = 48.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 48.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Enter your user name for the proxy server.'
+        OnExit = EditExit
+        object btnClearUser: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object lblUserName: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'User Name:'
+        end
+      end
+      object txtPassword: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 1
+        Password = True
+        Position.X = 16.000000000000000000
+        Position.Y = 94.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 24.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Enter your password for the proxy server.'
+        OnExit = EditExit
+        object btnShowPwd: TPasswordEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object btnClearPwd: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Position.X = 28.000000000000000000
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+        object lblPassword: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 56.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Password:'
+        end
+      end
+    end
+  end
+  inherited copnlInstruct: TCalloutPanel
+    Visible = False
+    TabOrder = 2
+  end
+  inherited layIcon: TLayout
+    Size.Height = 324.000000000000000000
+    TabOrder = 4
+  end
+end

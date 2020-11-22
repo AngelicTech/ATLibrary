@@ -1,0 +1,104 @@
+inherited DNAForgotPasswordDlg: TDNAForgotPasswordDlg
+  Caption = 'Forgot Password'
+  ClientHeight = 360
+  DesignerMasterStyle = 0
+  inherited pnlButtons: TPanel
+    Position.Y = 300.000000000000000000
+  end
+  inherited layContents: TLayout
+    Size.Height = 158.000000000000000000
+    inherited gbxInfo: TGroupBox
+      Size.Height = 158.000000000000000000
+      Text = 'Account Information'
+      object txtEmail: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        Position.X = 16.000000000000000000
+        Position.Y = 64.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 64.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Enter your e-mail address.'
+        object btnClearEmail: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object lblEmail: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 85.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'E-mail Address:'
+        end
+      end
+    end
+  end
+  inherited copnlInstruct: TCalloutPanel
+    Position.Y = 174.000000000000000000
+    inherited lblInstructCap: TLabel
+      Text = 'Please enter the e-mail address associated with your code.'
+    end
+    inherited lblInstruct: TLabel
+      Text = 
+        'You need to enter the e-mail address associated with this code s' +
+        'o that we can lookup your current password and e-mail it to you.'
+    end
+  end
+  inherited layIcon: TLayout
+    Size.Height = 158.000000000000000000
+  end
+  inherited ilstDlg: TImageList
+    Source = <
+      item
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Width = 16
+            Height = 16
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+              61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02C049444154384F75524B681351143D6F32F96B2CF69386B449DAB4502B54B0
+              CB2A2D057FA0A0A29B46840AB69B96AE74E7C28DA23B91162C225D485785B8D4
+              850B178A1BA9623185FED2944ADA947E8CC9CC64E6CD78DF8BD914BD993B77EE
+              BBE79E7BDE7B6138648F1F8C5FD195E3E9BABA3A97C83736360AF1B8D93A31F1
+              DC908043C6E61EF6F6EDEFE65FDAB0BB2C47C592D987F17B8F90482424209D4E
+              E3DBBBA768F1E764EE286CE1A827707BE8C9F2BCC8D9E4443473FED2ADAE48B8
+              15F9ED3D4CBD2DA0BE212CC1350B989B18BE1847A57480C5854FC8AC66E6479F
+              6D9D163555719CAE48730CE6EF3D845811F72FF8C09D7D1A251E7A09902B08FD
+              600746B988A0C705F3809D92053295DB0CDC28C12CFF82A59765D3C7AD16E4B5
+              A004384E9544444D2B21E60574F78242AB8C0ED0513997A30444FE4C0E142A21
+              DC1D1D81D72DCE91600269DB98999941D1AC87766C17376FE47C98FBAC2BDCFE
+              DB2C78E8C5694144E106B159D458CB5555C5D0500A8D1D830885BA27CFF5F404
+              544B28902640769580324561C8AE1790CBEDC8EFFE3327A80E78BC3EA45229D2
+              CF866D3222004CD384AE69D04B25942B2489900AEDB0BDAD099DC966DA01836D
+              73783C6ECCCEBE16B3A0B85C482693C35201E7168C8A01CDD0C9AB92194D5DCF
+              1590CD16E4E481B32770F5DA75E8BA814AC524550AA65F4C290A2705A404367D
+              D896054E2E08A482781306FB4F4A17C69802B7DB03AFCF0FBFDF2749E816A899
+              E4716EC2B24C22A0B360A4801A56B3DB585ED99284B64D2E227967328244AC41
+              9C03E41914777EC2D08AA4A222810EDDB228B6279A08D8289BC47573522AA250
+              4C2849AC72CBFE9159FCDE1D0B87E0A246855C14E8C1EADA369656F255059457
+              D749414704715220098E04BD773E7C5D7B4584DD623A775C681BB82CFF66C9F6
+              B0F47F598D4C6CB5666CA417EAF41704C6C6C6DE44A3D1010110F6BFB8B9B9F9
+              FE0F91B49595F77C7E400000000049454E44AE426082}
+            FileName = 
+              '\\angel-s1\Images-photos\Images\Axialis\AxialisIcons-OfficeRibbo' +
+              'nToolbar-Basic-1.0.001\png_format_32bpp_alpha\16x16\clip_paste.p' +
+              'ng'
+          end>
+        Name = 'clip_paste'
+      end>
+    Left = 20
+    Top = 288
+  end
+end

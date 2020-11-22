@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AxialisIconCollection>
+  <Name>Images</Name>
+  <Icon>
+    <Name>button-help</Name>
+    <StockIconName>button-help.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>100</ResourceIDValue>
+    <ResourceID>ID_BUTTON-HELP</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>button-help-black</Name>
+    <StockIconName>button-help.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#000000</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>101</ResourceIDValue>
+    <ResourceID>ID_BUTTON-HELP-BLACK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>button-help-white</Name>
+    <StockIconName>button-help.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#FFFFFF</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>102</ResourceIDValue>
+    <ResourceID>ID_BUTTON-HELP-WHITE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>button-info</Name>
+    <StockIconName>button-info.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>103</ResourceIDValue>
+    <ResourceID>ID_BUTTON-INFO</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>button-info-black</Name>
+    <StockIconName>button-info.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#000000</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>104</ResourceIDValue>
+    <ResourceID>ID_BUTTON-INFO-BLACK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>button-info-white</Name>
+    <StockIconName>button-info.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#FFFFFF</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>105</ResourceIDValue>
+    <ResourceID>ID_BUTTON-INFO-WHITE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>clipboard</Name>
+    <StockIconName>clipboard.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>106</ResourceIDValue>
+    <ResourceID>ID_CLIPBOARD</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>clipboard-copy</Name>
+    <StockIconName>clipboard-copy.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>107</ResourceIDValue>
+    <ResourceID>ID_CLIPBOARD-COPY</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>clipboard-cut</Name>
+    <StockIconName>clipboard-cut.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>108</ResourceIDValue>
+    <ResourceID>ID_CLIPBOARD-CUT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>clipboard-paste</Name>
+    <StockIconName>clipboard-paste.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>109</ResourceIDValue>
+    <ResourceID>ID_CLIPBOARD-PASTE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>command-redo</Name>
+    <StockIconName>command-redo.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>110</ResourceIDValue>
+    <ResourceID>ID_COMMAND-REDO</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>command-redo-black</Name>
+    <StockIconName>command-redo.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#000000</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>111</ResourceIDValue>
+    <ResourceID>ID_COMMAND-REDO-BLACK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>command-redo-white</Name>
+    <StockIconName>command-redo.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#FFFFFF</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>112</ResourceIDValue>
+    <ResourceID>ID_COMMAND-REDO-WHITE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>command-undo</Name>
+    <StockIconName>command-undo.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>113</ResourceIDValue>
+    <ResourceID>ID_COMMAND-UNDO</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>command-undo-black</Name>
+    <StockIconName>command-undo.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#000000</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>114</ResourceIDValue>
+    <ResourceID>ID_COMMAND-UNDO-BLACK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>command-undo-white</Name>
+    <StockIconName>command-undo.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#FFFFFF</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>115</ResourceIDValue>
+    <ResourceID>ID_COMMAND-UNDO-WHITE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>settings-options</Name>
+    <StockIconName>settings-options.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>116</ResourceIDValue>
+    <ResourceID>ID_SETTINGS-OPTIONS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>select-all</Name>
+    <StockIconName>select-all.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>117</ResourceIDValue>
+    <ResourceID>ID_SELECT-ALL</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>select-invert</Name>
+    <StockIconName>select-invert.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>118</ResourceIDValue>
+    <ResourceID>ID_SELECT-INVERT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>select-none</Name>
+    <StockIconName>select-none.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>119</ResourceIDValue>
+    <ResourceID>ID_SELECT-NONE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>select</Name>
+    <StockIconName>select.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>120</ResourceIDValue>
+    <ResourceID>ID_SELECT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>touch-mode</Name>
+    <StockIconName>touch-mode.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>121</ResourceIDValue>
+    <ResourceID>ID_TOUCH-MODE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>touch-mode-black</Name>
+    <StockIconName>touch-mode.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#000000</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>122</ResourceIDValue>
+    <ResourceID>ID_TOUCH-MODE-BLACK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>touch-mode-white</Name>
+    <StockIconName>touch-mode.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#FFFFFF</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>123</ResourceIDValue>
+    <ResourceID>ID_TOUCH-MODE-WHITE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>home</Name>
+    <StockIconName>home.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>124</ResourceIDValue>
+    <ResourceID>ID_HOME</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>find</Name>
+    <StockIconName>find.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>125</ResourceIDValue>
+    <ResourceID>ID_FIND</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>find-black</Name>
+    <StockIconName>find.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#CC4B31</ColorizeOverlay>
+    <Colorize>#000000</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>126</ResourceIDValue>
+    <ResourceID>ID_FIND-BLACK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>find-white</Name>
+    <StockIconName>find.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#CC4B31</ColorizeOverlay>
+    <Colorize>#FFFFFF</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>127</ResourceIDValue>
+    <ResourceID>ID_FIND-WHITE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>replace</Name>
+    <StockIconName>replace.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>128</ResourceIDValue>
+    <ResourceID>ID_REPLACE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>replace-black</Name>
+    <StockIconName>replace.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <ColorizeOverlay>#CC4B31</ColorizeOverlay>
+    <Colorize>#000000</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>129</ResourceIDValue>
+    <ResourceID>ID_REPLACE-BLACK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>replace-white</Name>
+    <StockIconName>replace.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <ColorizeOverlay>#CC4B31</ColorizeOverlay>
+    <Colorize>#FFFFFF</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>130</ResourceIDValue>
+    <ResourceID>ID_REPLACE-WHITE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>search</Name>
+    <StockIconName>search.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>131</ResourceIDValue>
+    <ResourceID>ID_SEARCH</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>spell-check</Name>
+    <StockIconName>spell-check.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>132</ResourceIDValue>
+    <ResourceID>ID_SPELL-CHECK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>printer</Name>
+    <StockIconName>printer.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>133</ResourceIDValue>
+    <ResourceID>ID_PRINTER</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>print-setup</Name>
+    <StockIconName>print-setup.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>1</StockOverlayPos>
+    <ResourceIDValue>134</ResourceIDValue>
+    <ResourceID>ID_PRINT-SETUP</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>internet-info</Name>
+    <StockIconName>internet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#4DA07D</Colorize>
+    <StockOverlayName>info.axvi</StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>135</ResourceIDValue>
+    <ResourceID>ID_INTERNET-INFO</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>internet</Name>
+    <StockIconName>internet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#4DA07D</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>136</ResourceIDValue>
+    <ResourceID>ID_INTERNET</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>internet-help</Name>
+    <StockIconName>internet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#4DA07D</Colorize>
+    <StockOverlayName>help.axvi</StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>137</ResourceIDValue>
+    <ResourceID>ID_INTERNET-HELP</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>internet-download</Name>
+    <StockIconName>internet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#4DA07D</Colorize>
+    <StockOverlayName>download.axvi</StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>138</ResourceIDValue>
+    <ResourceID>ID_INTERNET-DOWNLOAD</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>internet-update</Name>
+    <StockIconName>internet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#4DA07D</Colorize>
+    <StockOverlayName>update.axvi</StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>139</ResourceIDValue>
+    <ResourceID>ID_INTERNET-UPDATE</ResourceID>
+  </Icon>
+</AxialisIconCollection>

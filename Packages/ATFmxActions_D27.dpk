@@ -1,0 +1,55 @@
+package ATFmxActions_D27;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Angelic Tech FMX Actions - Runtime'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  fmx,
+  bindcomp,
+  bindcompfmx,
+  bindengine;
+
+contains
+  AT.Fmx.Actions.Base in '..\Source\FMX\AT.Fmx.Actions.Base.pas',
+  AT.Fmx.Actions.Bind in '..\Source\FMX\AT.Fmx.Actions.Bind.pas',
+  AT.Fmx.Actions.Consts in '..\Source\FMX\AT.Fmx.Actions.Consts.pas',
+  AT.Fmx.Actions.Control in '..\Source\FMX\AT.Fmx.Actions.Control.pas',
+  AT.Fmx.Actions.Data in '..\Source\FMX\AT.Fmx.Actions.Data.pas',
+  AT.Fmx.Actions.EditActns in '..\Source\FMX\AT.Fmx.Actions.EditActns.pas',
+  AT.Fmx.Actions.FileActns in '..\Source\FMX\AT.Fmx.Actions.FileActns.pas',
+  AT.Fmx.Actions.MediaLibrary in '..\Source\FMX\AT.Fmx.Actions.MediaLibrary.pas',
+  AT.Fmx.Actions.PhoneDialer in '..\Source\FMX\AT.Fmx.Actions.PhoneDialer.pas',
+  AT.Fmx.Actions.TabActns in '..\Source\FMX\AT.Fmx.Actions.TabActns.pas',
+  AT.Fmx.Actions.Types in '..\Source\FMX\AT.Fmx.Actions.Types.pas',
+  AT.Fmx.Actions.ValueRange in '..\Source\FMX\AT.Fmx.Actions.ValueRange.pas',
+  AT.Fmx.Actions.ViewActns in '..\Source\FMX\AT.Fmx.Actions.ViewActns.pas',
+  AT.Fmx.Actions.WindowActns in '..\Source\FMX\AT.Fmx.Actions.WindowActns.pas';
+
+end.

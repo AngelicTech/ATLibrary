@@ -1,0 +1,192 @@
+inherited DNAActivationDlg: TDNAActivationDlg
+  Caption = 'Product Activation'
+  ClientHeight = 440
+  DesignerMasterStyle = 0
+  inherited pnlButtons: TPanel
+    Position.Y = 380.000000000000000000
+  end
+  inherited layContents: TLayout
+    Size.Height = 238.000000000000000000
+    inherited gbxInfo: TGroupBox
+      Size.Height = 238.000000000000000000
+      Text = 'Account Information'
+      object txtConfirmEmail: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostTop
+        TabOrder = 1
+        Position.X = 16.000000000000000000
+        Position.Y = 94.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 24.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Please confirm your e-mail address.'
+        OnExit = EditExit
+        object btnConfirmEmailClear: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object lblConfirmEmail: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 131.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Confirm E-mail Address:'
+        end
+      end
+      object txtEmail: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostTop
+        TabOrder = 0
+        Position.X = 16.000000000000000000
+        Position.Y = 48.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 48.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Please enter your e-mail address.'
+        OnExit = EditExit
+        object btnEmailClear: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object lblEmail: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 85.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'E-mail Address:'
+        end
+      end
+      object Line1: TLine
+        Align = MostTop
+        LineType = Top
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Position.X = 16.000000000000000000
+        Position.Y = 126.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 3.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claSlategray
+      end
+      object txtPassword: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostTop
+        TabOrder = 2
+        Password = True
+        Position.X = 16.000000000000000000
+        Position.Y = 153.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 24.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Please enter a password.'
+        OnExit = EditExit
+        object btnPwdClear: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Position.X = 28.000000000000000000
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object btnPwdShow: TPasswordEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+        object lblPassword: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 56.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Password:'
+        end
+      end
+      object txtConfirmPassword: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 3
+        Password = True
+        Position.X = 16.000000000000000000
+        Position.Y = 199.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 24.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Please confirm your password.'
+        OnExit = EditExit
+        object btnConfirmPwdClear: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Position.X = 28.000000000000000000
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object btnConfirmPwdShow: TPasswordEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+        object lblConfirmPwd: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 102.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Confirm Password:'
+        end
+      end
+    end
+  end
+  inherited copnlInstruct: TCalloutPanel
+    Position.Y = 254.000000000000000000
+    inherited lblInstructCap: TLabel
+      Text = 'Please enter an e-mail address and password.'
+    end
+    inherited lblInstruct: TLabel
+      Text = 
+        'This information will be used to create an account that you can ' +
+        'use to retrieve your activation information should you ever need' +
+        ' to reinstall this software. NOTE: The password must be between ' +
+        '1 and 16 characters [A-Z, a-z, 0-9, -, @]'
+    end
+  end
+  inherited layIcon: TLayout
+    Size.Height = 238.000000000000000000
+  end
+end

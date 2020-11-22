@@ -1,0 +1,36 @@
+object frmGenericTabForm: TfrmGenericTabForm
+  Left = 0
+  Top = 0
+  Caption = 'frmGenericTabForm'
+  ClientHeight = 336
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlContents: TPanel
+    AlignWithMargins = True
+    Left = 8
+    Top = 8
+    Width = 619
+    Height = 320
+    Margins.Left = 8
+    Margins.Top = 8
+    Margins.Right = 8
+    Margins.Bottom = 8
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'pnlContents'
+    ShowCaption = False
+    TabOrder = 0
+    ExplicitLeft = 128
+    ExplicitTop = 72
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+  end
+end

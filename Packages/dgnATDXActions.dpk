@@ -1,0 +1,55 @@
+package dgnATDXActions;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Angelic Technology DX Vcl Actions'}
+{$IMPLICITBUILD ON}
+
+requires
+  dbrtl,
+  designide,
+  vcldesigner,
+  rtl,
+  vcl,
+  vcldb,
+  vclimg,
+  vclx,
+  dxCoreRS27,
+  dxGDIPlusRS27,
+  cxLibraryRS27,
+  dxSpreadSheetCoreRS27,
+  dxSpreadSheetRS27,
+  dcldb,
+  dcldxCoreRS27,
+  dclcxLibraryRS27;
+
+contains
+  AT.Vcl.DX.SpreadSheet.ActionsStrs in '..\Source\VCL\AT.Vcl.DX.SpreadSheet.ActionsStrs.pas',
+  AT.Vcl.DX.SpreadSheet.Actions in '..\Source\VCL\AT.Vcl.DX.SpreadSheet.Actions.pas',
+  AT.Vcl.DX.SpreadSheet.ActionsReg in '..\Source\VCL\AT.Vcl.DX.SpreadSheet.ActionsReg.pas',
+  AT.Vcl.DX.SpreadSheet.ActionsTypes in '..\Source\VCL\AT.Vcl.DX.SpreadSheet.ActionsTypes.pas';
+
+end.

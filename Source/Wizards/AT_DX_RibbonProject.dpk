@@ -1,0 +1,100 @@
+package AT_DX_RibbonProject;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  designide,
+  dxGDIPlusRS25,
+  dxCoreRS25,
+  cxLibraryRS25,
+  dxThemeRS25,
+  dxWizardControlRS25,
+  dxSkinsCoreRS25,
+  dxSkinBlackRS25,
+  dxSkinBlueprintRS25,
+  dxSkinBlueRS25,
+  dxSkinCaramelRS25,
+  dxSkinCoffeeRS25,
+  dxSkinDarkRoomRS25,
+  dxSkinDarkSideRS25,
+  dxSkinDevExpressDarkStyleRS25,
+  dxSkinDevExpressStyleRS25,
+  dxSkinFoggyRS25,
+  dxSkinGlassOceansRS25,
+  dxSkinHighContrastRS25,
+  dxSkiniMaginaryRS25,
+  dxSkinLilianRS25,
+  dxSkinLiquidSkyRS25,
+  dxSkinLondonLiquidSkyRS25,
+  dxSkinMcSkinRS25,
+  dxSkinMetropolisDarkRS25,
+  dxSkinMetropolisRS25,
+  dxSkinMoneyTwinsRS25,
+  dxSkinOffice2007BlackRS25,
+  dxSkinOffice2007BlueRS25,
+  dxSkinOffice2007GreenRS25,
+  dxSkinOffice2007PinkRS25,
+  dxSkinOffice2007SilverRS25,
+  dxSkinOffice2010BlackRS25,
+  dxSkinOffice2010BlueRS25,
+  dxSkinOffice2010SilverRS25,
+  dxSkinOffice2013DarkGrayRS25,
+  dxSkinOffice2013LightGrayRS25,
+  dxSkinOffice2013WhiteRS25,
+  dxSkinOffice2016ColorfulRS25,
+  dxSkinOffice2016DarkRS25,
+  dxSkinPumpkinRS25,
+  dxSkinSevenClassicRS25,
+  dxSkinSevenRS25,
+  dxSkinSharpPlusRS25,
+  dxSkinSharpRS25,
+  dxSkinSilverRS25,
+  dxSkinSpringTimeRS25,
+  dxSkinStardustRS25,
+  dxSkinSummer2008RS25,
+  dxSkinTheAsphaltWorldRS25,
+  dxSkinValentineRS25,
+  dxSkinVisualStudio2013BlueRS25,
+  dxSkinVisualStudio2013DarkRS25,
+  dxSkinVisualStudio2013LightRS25,
+  dxSkinVS2010RS25,
+  dxSkinWhiteprintRS25,
+  dxSkinXmas2008BlueRS25,
+  dbrtl,
+  vclwinx,
+  cxDataRS25,
+  dxOfficeCoreRS25,
+  cxEditorsRS25;
+
+contains
+  AT.OTA.Repository.Wizard.DXRibbon in 'DX Ribbon Project\AT.OTA.Repository.Wizard.DXRibbon.pas',
+  AT.Wizard.Forms.DXRibbon in 'DX Ribbon Project\AT.Wizard.Forms.DXRibbon.pas' {frmATDXRibbonProjWiz},
+  AT.OTA.Repository.Wizard.Creator.Project in 'DX Ribbon Project\AT.OTA.Repository.Wizard.Creator.Project.pas';
+
+end.

@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AxialisIconCollection>
+  <Name>Document Types</Name>
+  <Icon>
+    <Name>AddressBook</Name>
+    <StockIconName>address-book.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>100</ResourceIDValue>
+    <ResourceID>ID_ADDRESS-BOOK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Archive</Name>
+    <StockIconName>archive.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>101</ResourceIDValue>
+    <ResourceID>ID_ARCHIVE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Attach</Name>
+    <StockIconName>attach.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>102</ResourceIDValue>
+    <ResourceID>ID_ATTACH</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Book</Name>
+    <StockIconName>book.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>103</ResourceIDValue>
+    <ResourceID>ID_BOOK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Book-Open</Name>
+    <StockIconName>book-open.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>104</ResourceIDValue>
+    <ResourceID>ID_BOOK-OPEN</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Briefcase</Name>
+    <StockIconName>briefcase.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>105</ResourceIDValue>
+    <ResourceID>ID_BRIEFCASE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Calendar</Name>
+    <StockIconName>calendar.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>106</ResourceIDValue>
+    <ResourceID>ID_CALENDAR</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Calendar2</Name>
+    <StockIconName>calendar2.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>107</ResourceIDValue>
+    <ResourceID>ID_CALENDAR2</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Camera</Name>
+    <StockIconName>camera.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>108</ResourceIDValue>
+    <ResourceID>ID_CAMERA</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Cart</Name>
+    <StockIconName>shopping-cart.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>185</ResourceIDValue>
+    <ResourceID>ID_CART</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Certificate</Name>
+    <StockIconName>certificate.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>109</ResourceIDValue>
+    <ResourceID>ID_CERTIFICATE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Certificate2</Name>
+    <StockIconName>certificate-license.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>110</ResourceIDValue>
+    <ResourceID>ID_CERTIFICATE-LICENSE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Chat</Name>
+    <StockIconName>chat.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>111</ResourceIDValue>
+    <ResourceID>ID_CHAT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Clock</Name>
+    <StockIconName>clock.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>112</ResourceIDValue>
+    <ResourceID>ID_CLOCK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Clock2</Name>
+    <StockIconName>time.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>192</ResourceIDValue>
+    <ResourceID>ID_CLOCK2</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Cloud</Name>
+    <StockIconName>cloud.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>113</ResourceIDValue>
+    <ResourceID>ID_CLOUD</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Clouds</Name>
+    <StockIconName>clouds.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>114</ResourceIDValue>
+    <ResourceID>ID_CLOUDS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Comment</Name>
+    <StockIconName>comment.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>115</ResourceIDValue>
+    <ResourceID>ID_COMMENT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Computer</Name>
+    <StockIconName>computer.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>116</ResourceIDValue>
+    <ResourceID>ID_COMPUTER</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Computer-Browse</Name>
+    <StockIconName>computer-browse.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>117</ResourceIDValue>
+    <ResourceID>ID_COMPUTER-BROWSE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Computer-Network</Name>
+    <StockIconName>computer-network.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>118</ResourceIDValue>
+    <ResourceID>ID_COMPUTER-NETWORK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Computer-Server</Name>
+    <StockIconName>computer-server.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>119</ResourceIDValue>
+    <ResourceID>ID_COMPUTER-SERVER</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Computers</Name>
+    <StockIconName>computers.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>120</ResourceIDValue>
+    <ResourceID>ID_COMPUTERS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>CoverPage</Name>
+    <StockIconName>cover-page.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>121</ResourceIDValue>
+    <ResourceID>ID_COVER-PAGE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Database</Name>
+    <StockIconName>database.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>122</ResourceIDValue>
+    <ResourceID>ID_DATABASE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Databases</Name>
+    <StockIconName>databases.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>123</ResourceIDValue>
+    <ResourceID>ID_DATABASES</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Design</Name>
+    <StockIconName>design.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>124</ResourceIDValue>
+    <ResourceID>ID_DESIGN</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document</Name>
+    <StockIconName>document.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>125</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Blue</Name>
+    <StockIconName>document-color-blue.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>130</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-BLUE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Chart</Name>
+    <StockIconName>document-chart.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>129</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-CHART</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-DB</Name>
+    <StockIconName>document-database.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>133</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-DB</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Equation</Name>
+    <StockIconName>document-calculus.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>128</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-CALCULUS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Flag</Name>
+    <StockIconName>document-flag.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>134</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-FLAG</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Green</Name>
+    <StockIconName>document-color-green.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>131</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-GREEN</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-PDF</Name>
+    <StockIconName>document-acrobat.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>127</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-PDF</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Red</Name>
+    <StockIconName>document-color-red.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>132</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-COLOR-RED</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Query</Name>
+    <StockIconName>document-query.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>135</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-QUERY</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Documents</Name>
+    <StockIconName>documents.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>126</ResourceIDValue>
+    <ResourceID>ID_DOCUMENTS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Script</Name>
+    <StockIconName>document-script.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>136</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-SCRIPT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-SS</Name>
+    <StockIconName>document-spreadsheet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>137</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-SPREADSHEET</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-SQL</Name>
+    <StockIconName>document-sql.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>138</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-SQL</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Table</Name>
+    <StockIconName>document-table.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>139</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-TABLE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Template</Name>
+    <StockIconName>document-template.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>140</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-TEMPLATE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Text</Name>
+    <StockIconName>document-text.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>141</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-TEXT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Text2</Name>
+    <StockIconName>document-text.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>142</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-TEXT-2</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Text3</Name>
+    <StockIconName>document-text-a.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>143</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-TEXT-A</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Text4</Name>
+    <StockIconName>document-text-graph.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>144</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-TEXT-GRAPH</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Text5</Name>
+    <StockIconName>document-text-picture.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>145</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-TEXT-PICTURE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Text6</Name>
+    <StockIconName>document-text-picture.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>146</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-TEXT-PICTURE-2</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Document-Text7</Name>
+    <StockIconName>document-text-table.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>147</ResourceIDValue>
+    <ResourceID>ID_DOCUMENT-TEXT-TABLE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>FirstAid</Name>
+    <StockIconName>first-aid.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>148</ResourceIDValue>
+    <ResourceID>ID_FIRST-AID</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>FormDesign</Name>
+    <StockIconName>form-design.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>149</ResourceIDValue>
+    <ResourceID>ID_FORM-DESIGN</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>FormDialog</Name>
+    <StockIconName>form-dialog.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>150</ResourceIDValue>
+    <ResourceID>ID_FORM-DIALOG</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>FormEmpty</Name>
+    <StockIconName>form-empty.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>151</ResourceIDValue>
+    <ResourceID>ID_FORM-EMPTY</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Home</Name>
+    <StockIconName>home.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>152</ResourceIDValue>
+    <ResourceID>ID_HOME</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Image</Name>
+    <StockIconName>type-image.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>194</ResourceIDValue>
+    <ResourceID>ID_IMAGE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Install</Name>
+    <StockIconName>install.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>153</ResourceIDValue>
+    <ResourceID>ID_INSTALL</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Internet</Name>
+    <StockIconName>internet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>154</ResourceIDValue>
+    <ResourceID>ID_INTERNET</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Internet-Browse</Name>
+    <StockIconName>internet-browse.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>155</ResourceIDValue>
+    <ResourceID>ID_INTERNET-BROWSE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>List</Name>
+    <StockIconName>list.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>156</ResourceIDValue>
+    <ResourceID>ID_LIST</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Lock-Closed</Name>
+    <StockIconName>padlock.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>172</ResourceIDValue>
+    <ResourceID>ID_LOCK-CLOSED</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Lock-Open</Name>
+    <StockIconName>padlock-open.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>173</ResourceIDValue>
+    <ResourceID>ID_LOCK-OPEN</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Log</Name>
+    <StockIconName>logs.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>157</ResourceIDValue>
+    <ResourceID>ID_LOGS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Macro</Name>
+    <StockIconName>macros.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>158</ResourceIDValue>
+    <ResourceID>ID_MACROS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Mail</Name>
+    <StockIconName>mail.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>159</ResourceIDValue>
+    <ResourceID>ID_MAIL</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Mail-Envelope</Name>
+    <StockIconName>mailing-envelope.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>161</ResourceIDValue>
+    <ResourceID>ID_MAILING-ENVELOPE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Mail-Labels</Name>
+    <StockIconName>mailing-labels.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>162</ResourceIDValue>
+    <ResourceID>ID_MAILING-LABELS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Mail-Open</Name>
+    <StockIconName>mail-open.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>160</ResourceIDValue>
+    <ResourceID>ID_MAIL-OPEN</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Map</Name>
+    <StockIconName>map.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>163</ResourceIDValue>
+    <ResourceID>ID_MAP</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Message</Name>
+    <StockIconName>message.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>164</ResourceIDValue>
+    <ResourceID>ID_MESSAGE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Note</Name>
+    <StockIconName>note.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>165</ResourceIDValue>
+    <ResourceID>ID_NOTE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Notepad</Name>
+    <StockIconName>notepad.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>167</ResourceIDValue>
+    <ResourceID>ID_NOTEPAD</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Notepad-Open</Name>
+    <StockIconName>notepad-open.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>168</ResourceIDValue>
+    <ResourceID>ID_NOTEPAD-OPEN</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Notes</Name>
+    <StockIconName>notes.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>169</ResourceIDValue>
+    <ResourceID>ID_NOTES</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Notes-Text</Name>
+    <StockIconName>notes-text.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>170</ResourceIDValue>
+    <ResourceID>ID_NOTES-TEXT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Note-Text</Name>
+    <StockIconName>note-text.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>166</ResourceIDValue>
+    <ResourceID>ID_NOTE-TEXT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Organizaton</Name>
+    <StockIconName>organizaton.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>171</ResourceIDValue>
+    <ResourceID>ID_ORGANIZATON</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Picture</Name>
+    <StockIconName>picture.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>174</ResourceIDValue>
+    <ResourceID>ID_PICTURE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Pictures</Name>
+    <StockIconName>pictures.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>175</ResourceIDValue>
+    <ResourceID>ID_PICTURES</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Preferences</Name>
+    <StockIconName>settings-options.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>184</ResourceIDValue>
+    <ResourceID>ID_PREFERENCES</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Query</Name>
+    <StockIconName>query.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>176</ResourceIDValue>
+    <ResourceID>ID_QUERY</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Record</Name>
+    <StockIconName>record.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>177</ResourceIDValue>
+    <ResourceID>ID_RECORD</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Report</Name>
+    <StockIconName>report.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>178</ResourceIDValue>
+    <ResourceID>ID_REPORT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Report-Open</Name>
+    <StockIconName>report-open.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>179</ResourceIDValue>
+    <ResourceID>ID_REPORT-OPEN</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Script</Name>
+    <StockIconName>script.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Database</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>180</ResourceIDValue>
+    <ResourceID>ID_SCRIPT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Security</Name>
+    <StockIconName>secure.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>181</ResourceIDValue>
+    <ResourceID>ID_SECURE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Security-Error</Name>
+    <StockIconName>secure-error.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>182</ResourceIDValue>
+    <ResourceID>ID_SECURE-ERROR</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Security-Ok</Name>
+    <StockIconName>secure-ok.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>183</ResourceIDValue>
+    <ResourceID>ID_SECURE-OK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Support</Name>
+    <StockIconName>support.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>186</ResourceIDValue>
+    <ResourceID>ID_SUPPORT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Tabs</Name>
+    <StockIconName>tabs.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>188</ResourceIDValue>
+    <ResourceID>ID_TABS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Tab</Name>
+    <StockIconName>tab.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>187</ResourceIDValue>
+    <ResourceID>ID_TAB</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Task</Name>
+    <StockIconName>task.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>189</ResourceIDValue>
+    <ResourceID>ID_TASK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Themes</Name>
+    <StockIconName>themes.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>190</ResourceIDValue>
+    <ResourceID>ID_THEMES</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Thesaurus</Name>
+    <StockIconName>thesaurus.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Word Processing</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>191</ResourceIDValue>
+    <ResourceID>ID_THESAURUS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Tools</Name>
+    <StockIconName>tools.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>193</ResourceIDValue>
+    <ResourceID>ID_TOOLS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Window-Picture</Name>
+    <StockIconName>window-picture.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>195</ResourceIDValue>
+    <ResourceID>ID_WINDOW-PICTURE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Window-SS</Name>
+    <StockIconName>window-spreadsheet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>196</ResourceIDValue>
+    <ResourceID>ID_WINDOW-SPREADSHEET</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Window-Text</Name>
+    <StockIconName>window-text.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>197</ResourceIDValue>
+    <ResourceID>ID_WINDOW-TEXT</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Window-WP</Name>
+    <StockIconName>window-word-processing.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>198</ResourceIDValue>
+    <ResourceID>ID_WINDOW-WORD-PROCESSING</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Zip</Name>
+    <StockIconName>zip.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>199</ResourceIDValue>
+    <ResourceID>ID_ZIP</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>Zip-Compressed</Name>
+    <StockIconName>zip-compressed.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>12853911</StockOverlayPos>
+    <ResourceIDValue>200</ResourceIDValue>
+    <ResourceID>ID_ZIP-COMPRESSED</ResourceID>
+  </Icon>
+</AxialisIconCollection>

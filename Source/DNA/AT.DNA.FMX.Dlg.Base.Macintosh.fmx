@@ -1,0 +1,16 @@
+inherited DNABaseDlg_Macintosh: TDNABaseDlg_Macintosh
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  inherited pnlButtons: TPanel
+    inherited btnOK: TButton
+      Align = MostRight
+      Position.X = 290.000000000000000000
+      Text = 'Save'
+    end
+    inherited btnCancel: TButton
+      Align = Right
+      Position.X = 198.000000000000000000
+    end
+  end
+end

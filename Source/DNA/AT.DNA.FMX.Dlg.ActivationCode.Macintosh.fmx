@@ -1,0 +1,14 @@
+inherited DNAActivationCodeDlg_Macintosh: TDNAActivationCodeDlg_Macintosh
+  DesignerMasterStyle = 0
+  inherited pnlButtons: TPanel
+    inherited btnOK: TButton
+      Align = MostRight
+      Position.X = 290.000000000000000000
+      Text = 'Save'
+    end
+    inherited btnCancel: TButton
+      Align = Right
+      Position.X = 198.000000000000000000
+    end
+  end
+end

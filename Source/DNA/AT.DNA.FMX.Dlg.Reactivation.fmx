@@ -1,0 +1,223 @@
+inherited DNAReactivationDlg: TDNAReactivationDlg
+  Caption = 'Product Re-Activation'
+  ClientHeight = 420
+  DesignerMasterStyle = 0
+  inherited pnlButtons: TPanel
+    Position.Y = 360.000000000000000000
+    object btnForgotPwd: TButton
+      Align = MostLeft
+      Default = True
+      Margins.Left = 12.000000000000000000
+      Position.X = 24.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 180.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'I Forgot My Password!'
+      OnClick = ForgotPwdButtonClicked
+    end
+  end
+  inherited layContents: TLayout
+    inherited gbxInfo: TGroupBox
+      Text = 'Authentication'
+      object txtConfirmPassword: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 2
+        Password = True
+        Position.X = 16.000000000000000000
+        Position.Y = 153.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 24.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Please confirm your NEW password.'
+        OnExit = EditExit
+        object btnClearConfNewPwd: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Position.X = 28.000000000000000000
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object btnShowConfNewPwd: TPasswordEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+        object lblConfirmNewPwd: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Confirm New Password:'
+        end
+      end
+      object txtNewPassword: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostTop
+        TabOrder = 1
+        Password = True
+        Position.X = 16.000000000000000000
+        Position.Y = 107.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 24.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Please enter a NEW password.'
+        OnExit = EditExit
+        object btnClearNewPwd: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Position.X = 28.000000000000000000
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object btnShowNewPwd: TPasswordEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+        object lblNewPassword: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 83.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'New Password:'
+        end
+      end
+      object shpInfoDivider: TLine
+        Align = MostTop
+        LineType = Top
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Position.X = 16.000000000000000000
+        Position.Y = 80.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 3.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claSlategray
+      end
+      object txtCurrentPwd: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = MostTop
+        TabOrder = 0
+        Password = True
+        Position.X = 16.000000000000000000
+        Position.Y = 48.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 48.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Please enter your CURRENT password.'
+        OnExit = EditExit
+        object btnClearCurrPwd: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Position.X = 28.000000000000000000
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object btnShowCurrPwd: TPasswordEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+        object lblCurrentPwd: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 99.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Current Password:'
+        end
+      end
+    end
+  end
+  inherited copnlInstruct: TCalloutPanel
+    Size.Height = 130.000000000000000000
+    inherited lblInstructCap: TLabel
+      Text = 'This code has already been activated!'
+    end
+    inherited lblInstruct: TLabel
+      Size.Height = 79.000000000000000000
+      Text = 
+        'Please confirm that you wish to re-activate it by entering your ' +
+        'current password and then a new, never-before used password. Ple' +
+        'ase note that you are required to change your password during re' +
+        '-activation for your own security. If you have forgotten your cu' +
+        'rrent password you can retrieve it using the "I Forgot My Passwo' +
+        'rd!" button below.'
+    end
+  end
+  inherited ilstDlg: TImageList
+    Source = <
+      item
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Width = 16
+            Height = 16
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+              61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02C049444154384F75524B681351143D6F32F96B2CF69386B449DAB4D056A860
+              97555A0AFE404145378D08156C372D5DE9CE851B4577222D5844BA90AE0A71A9
+              0B172E143752C5620AFDA52991B429FDC52433997933DEF76236456FE6CE9DFB
+              EEB9E79EF75E188ED89387135735E564B2AEAECE21F2CDCDCD7C346AB44E4EBE
+              D025E088B1F9477DFDFBBBB95716AC2ED356B16CF463E2FE63C4623109482693
+              F8FEFE195ABC1999DB0A5B3CEEF2DD197EBAB220723635194E5DB87CBB2B146C
+              456E7B0FD3EFF2A86F084A70CD7C46162397A2A8140FB0B4F819A9B5D4C2D8F3
+              AD33A2A62AB6DD156A8EC0F8BD87002BE0C1450FB8BD4FA3C4432F0172F8A11D
+              EC402F15E07739601CB2D3B240A6728B81EB4518A543985A49367DDA6A41AEEC
+              9700DBAE9288582E171171039ABAA8D02AA303B455CEE52801913F8303F94A00
+              F7C646E1768A732498405A166667675130EA513EB18B5B37331ECC7FD1146EFD
+              6D163CF4E2B420A2709DD84C6AACE5AAAA62783881C68E2104023D53E77B7B7D
+              AA2914481320AB4A4099A230A437F2C86476E4F7C0D96EAA032EB707894482F4
+              B3118B8C0800C330A095CBD08A45942A2489900AEDB0BDAD099DF166DA018365
+              71B85C4ECCCDBD11B3A0381C88C7E3235201E726F48A8EB2AE915725339ABA91
+              C9239DCECBC983E7BA71EDFA0D689A8E4AC520550A665E4E2B0A2705A404167D
+              58A6094E2E08A482681386064E4917C69802A7D305B7C70BAFD72349E816A899
+              E4716EC0340D22A0B360A4801AD6D2DB5859DD928496452E2279673C8458A441
+              9C03E41914767E412F17484545026DBA65516C8F3511B0513689EBE6A45444A1
+              98509258E5A6F533B5F4A327120CC0418D0AB928D083B5F56D2CAFE6AA0A28AF
+              AE93828E10A2A440121CF3BBEF7EFCB6FE9A087BC4746E3BD0367845FECDE2ED
+              41E9FFB21A99D86ACDD8681FD499AFF08D8F8FBF0D87C3830220EC7F319BCD7E
+              F80391F595954126ED270000000049454E44AE426082}
+            FileName = 
+              '\\angel-s1\Images-photos\Images\Axialis\AxialisIcons-OfficeRibbo' +
+              'nToolbar-Basic-1.0.001\png_format_32bpp_alpha\16x16\clip_paste.p' +
+              'ng'
+          end>
+        Name = 'clip_paste'
+      end>
+  end
+end

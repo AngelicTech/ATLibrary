@@ -1,0 +1,134 @@
+inherited DNAActivationCodeDlg: TDNAActivationCodeDlg
+  Caption = 'Product Activation'
+  DesignerMasterStyle = 0
+  inherited pnlButtons: TPanel
+    object btnEvaluate: TButton
+      Align = Left
+      Default = True
+      Margins.Right = 12.000000000000000000
+      Position.X = 12.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 140.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Request Evaluation'
+      OnClick = EvaluateButtonClicked
+    end
+    object btnProxy: TButton
+      Align = Left
+      Default = True
+      Margins.Right = 12.000000000000000000
+      Position.X = 164.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 36.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Proxy Settings'
+      OnClick = ProxyButtonClicked
+    end
+  end
+  inherited layContents: TLayout
+    inherited gbxInfo: TGroupBox
+      Text = 'Activation or Evaluation Code'
+      object txtCode: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        MaxLength = 50
+        Position.X = 16.000000000000000000
+        Position.Y = 64.000000000000000000
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 64.000000000000000000
+        Margins.Right = 48.000000000000000000
+        Size.Width = 288.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Enter your Activation or Evaluation code.'
+        OnExit = EditExit
+        object btnClearCode: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 28.000000000000000000
+          Size.Height = 18.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object lblCode: TLabel
+          AutoSize = True
+          Position.Y = -16.000000000000000000
+          Size.Width = 34.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Code:'
+        end
+        object btnPasteCode: TSpeedButton
+          Align = MostRight
+          Images = ilstDlg
+          ImageIndex = 0
+          Margins.Right = -28.000000000000000000
+          Position.X = 292.000000000000000000
+          Size.Width = 24.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnClick = btnPasteCodeClick
+        end
+      end
+    end
+  end
+  inherited copnlInstruct: TCalloutPanel
+    inherited lblInstructCap: TLabel
+      Text = 'Please enter either an Activation or Evaluation code.'
+    end
+    inherited lblInstruct: TLabel
+      Text = 
+        'If you do not have an activation code and wish to evaluate this ' +
+        'software, you may request an evaluation code by clicking the Req' +
+        'uest Evaluation button below.'
+    end
+  end
+  inherited ilstDlg: TImageList
+    Source = <
+      item
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Width = 16
+            Height = 16
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF
+              61000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02C149444154384F75524B681351143D6F32F96B2CF69386B449DAB4D056A860
+              97555A0AFE404145378D08156C372D5DE9CE851B4577222D5844BA90AE0A71A9
+              0B172E143752C5620AFDA52991B4A9FD1893CC64E6CD78DF8BD914BD993B77EE
+              BBE79E7BDE7B6138648FEE4F5CD694E3C9BABA3A87C8373737F3D1A8D13A39F9
+              4C978043C6E61FF4F5EFEFE65E58B0BA4C5BC5B2D18F89BB0F118BC52420994C
+              E2EBDB2768F166646E2B6CF1A8CB776BF8F1CA82C8D9D4643875EEE2CDAE50B0
+              15B9ED3D4CBFC9A3BE2128C135F319598C5C88A2523CC0D2E247A4D6520B634F
+              B74E899AAAD87657A83902E3F71E02AC807BE73DE0F63E8D120FBD04C8E18776
+              B003BD5480DFE580F1939D940532955B0C5C2FC228FD82A99564D387AD16E4CA
+              7E09B0ED2A8988E572111137A07917155A657480B6CAB91C2520F26770205F09
+              E0CED828DC4E718E041348CBC2ECEC2C0A463DCAC77671E37AC683F94F9AC2AD
+              BFCD82875E9C164414AE139B498DB55C55550C0F27D0D8318440A067EA6C6FAF
+              4F358502690264550928531486F4461E99CC8EFC1E38DD4D75C0E5F620914890
+              7E3662911101601806B472195AB1885285241152A11DB6B735A133DE4C3B60B0
+              2C0E97CB89B9B9576216148703F1787C442AE0DC845ED151D635F2AA64465337
+              3279A4D3793979F04C37AE5CBD064DD351A918A44AC1CCF36945E1A48094C0A2
+              0FCB34C1C9058154106DC2D0C009E9C21853E074BAE0F678E1F57A2409DD0235
+              933CCE0D98A6410474168C1450C35A7A1B2BAB5B92D0B2C84524EF8C87108B34
+              8873803C83C2CE0FE8E502A9A848A04DB72C8AEDB1260236CA2671DD9C948A28
+              14134A12ABDCB4BEA796BEF544820138A8512117057AB0B6BE8DE5D55C5501E5
+              D57552D0114294144882237EF7EDF75FD65F12618F98CE6D07DA062FC9BF59BC
+              3D28FD5F5623135BAD191BED833AF319BEF1F1F1D7E17078500084FD2F66B3D9
+              777F0090B09595CE1C68400000000049454E44AE426082}
+            FileName = 
+              '\\angel-s1\Images-photos\Images\Axialis\AxialisIcons-OfficeRibbo' +
+              'nToolbar-Basic-1.0.001\png_format_32bpp_alpha\16x16\clip_paste.p' +
+              'ng'
+          end>
+        Name = 'clip_paste'
+      end>
+  end
+end

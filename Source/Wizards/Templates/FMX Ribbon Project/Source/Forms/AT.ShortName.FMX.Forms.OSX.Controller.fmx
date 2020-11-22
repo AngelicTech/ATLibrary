@@ -1,0 +1,64 @@
+object frmOSXController: TfrmOSXController
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 153
+  ClientWidth = 153
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object mnuMain: TMainMenu
+    Left = 56
+    Top = 64
+    object mniApp: TMenuItem
+      Text = 'mniApp'
+      object mniAppAbout: TMenuItem
+        Action = dmActions.actAppAbout
+        Enabled = True
+        Locked = True
+        ImageIndex = -1
+      end
+      object mniAppSep1: TMenuItem
+        Locked = True
+        Text = '-'
+      end
+      object mniAppPreferences: TMenuItem
+        Action = dmActions.actAppPreferences
+        Enabled = True
+        Locked = True
+        ImageIndex = -1
+      end
+      object mniAppSep2: TMenuItem
+        Locked = True
+        Text = '-'
+      end
+      object mniAppHide: TMenuItem
+        Action = dmActions.actAppHide
+        Enabled = True
+        Locked = True
+        ImageIndex = -1
+      end
+      object mniAppHideOthers: TMenuItem
+        Action = dmActions.actAppHideOthers
+        Enabled = True
+        Locked = True
+        ImageIndex = -1
+      end
+      object mniAppSep3: TMenuItem
+        Locked = True
+        Text = '-'
+      end
+      object mniAppExit: TMenuItem
+        Action = dmActions.actAppExit
+        Enabled = True
+        Locked = True
+        ImageIndex = 43
+      end
+    end
+    object mniHelp: TMenuItem
+      Text = 'Help'
+    end
+  end
+end

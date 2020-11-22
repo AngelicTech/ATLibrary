@@ -1,0 +1,65 @@
+package dgnATDXNativePrintPane;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Angelic Tech - DX Native Print Pane'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  designide,
+  vcl,
+  vclactnband,
+  vclx,
+  xmlrtl,
+  dbrtl,
+  vcldb,
+  dxCoreRS27,
+  cxLibraryRS27,
+  dxGDIPlusRS27,
+  dclcxLibraryRS27,
+  dxBarRS27,
+  dxRibbonRS27,
+  dxPSCoreRS27,
+  dxBarExtItemsRS27,
+  dxPSLnksRS27,
+  dxPScxPCProdRS27,
+  dxPScxCommonRS27,
+  dxPScxExtCommonRS27,
+  dxPsPrVwAdvRS27,
+  dxPSPrVwRibbonRS27,
+  dxCloudServiceLibraryRS27,
+  dxRichEditControlRS27,
+  dxRichEditControlCoreRS27,
+  dxRichEditDocumentModelRS27,
+  dxRichEditCoreRS27;
+
+contains
+  AT.Vcl.DX.NativePrintPane in '..\Source\VCL\AT.Vcl.DX.NativePrintPane.pas',
+  AT.Vcl.DX.NativePrintPane.Reg in '..\Source\VCL\AT.Vcl.DX.NativePrintPane.Reg.pas',
+  AT.Vcl.DX.NativePrintPane.Frame in '..\Source\VCL\AT.Vcl.DX.NativePrintPane.Frame.pas' {ATdxNativePrintPaneFrame: TFrame};
+
+end.

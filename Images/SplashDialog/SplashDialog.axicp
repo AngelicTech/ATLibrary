@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AxialisIconCollection>
+  <Name>SplashDialog</Name>
+  <Icon>
+    <Name>amazon</Name>
+    <StockIconName>amazon.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Social Media</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>112</ResourceIDValue>
+    <ResourceID>ID_AMAZON</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>rss</Name>
+    <StockIconName>rss.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Social Media</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>114</ResourceIDValue>
+    <ResourceID>ID_RSS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>ebay</Name>
+    <StockIconName>ebay.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Social Media</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>113</ResourceIDValue>
+    <ResourceID>ID_EBAY</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>facebook</Name>
+    <StockIconName>facebook.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Social Media</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>100</ResourceIDValue>
+    <ResourceID>ID_FACEBOOK</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>google-plus</Name>
+    <StockIconName>google-plus.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Social Media</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>101</ResourceIDValue>
+    <ResourceID>ID_GOOGLE-PLUS</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>linkedin</Name>
+    <StockIconName>linkedin.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Social Media</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>102</ResourceIDValue>
+    <ResourceID>ID_LINKEDIN</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>skype</Name>
+    <StockIconName>skype.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Social Media</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>103</ResourceIDValue>
+    <ResourceID>ID_SKYPE</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>twitter</Name>
+    <StockIconName>twitter.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Social Media</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>104</ResourceIDValue>
+    <ResourceID>ID_TWITTER</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>youtube2</Name>
+    <StockIconName>youtube2.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Social Media</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>105</ResourceIDValue>
+    <ResourceID>ID_YOUTUBE2</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>button-info</Name>
+    <StockIconName>button-info.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>106</ResourceIDValue>
+    <ResourceID>ID_BUTTON-INFO</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>internet</Name>
+    <StockIconName>internet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <Colorize>#4DA07D</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>32</StockOverlayPos>
+    <ResourceIDValue>107</ResourceIDValue>
+    <ResourceID>ID_INTERNET</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>internet-help</Name>
+    <StockIconName>internet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#4DA07D</Colorize>
+    <StockOverlayName>help.axvi</StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>108</ResourceIDValue>
+    <ResourceID>ID_INTERNET-HELP</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>mail</Name>
+    <StockIconName>mail.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#CC4B31</Colorize>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>109</ResourceIDValue>
+    <ResourceID>ID_MAIL</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>internet-info</Name>
+    <StockIconName>internet.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <Colorize>#4DA07D</Colorize>
+    <StockOverlayName>info.axvi</StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>110</ResourceIDValue>
+    <ResourceID>ID_INTERNET-INFO</ResourceID>
+  </Icon>
+  <Icon>
+    <Name>home</Name>
+    <StockIconName>home.axvi</StockIconName>
+    <StockIconFamily>Axialis Flat Pro 2017</StockIconFamily>
+    <StockIconSet>Basic</StockIconSet>
+    <ColorizeOverlay>#3E78B3</ColorizeOverlay>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>4</StockOverlayPos>
+    <ResourceIDValue>111</ResourceIDValue>
+    <ResourceID>ID_HOME</ResourceID>
+  </Icon>
+</AxialisIconCollection>
