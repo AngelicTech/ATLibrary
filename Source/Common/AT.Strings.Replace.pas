@@ -1,12 +1,10 @@
 // ******************************************************************
 //
-// Program Name   : Angelic Tech Common Library
-// Program Version: 2017
-// Platform(s)    : Android, iOS, Linux, OS X, Windows
-// Framework      : None
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
 //
 // Filename       : AT.Strings.Replace.pas
-// File Version   : 2017.04
 // Date Created   : 11-Apr-2017
 // Author         : Matthew Vesperman
 //
@@ -26,7 +24,7 @@
 // ******************************************************************
 
 /// <summary>
-///   Contains string replacement routines.
+///   Contains string value replacement routines.
 /// </summary>
 unit AT.Strings.Replace;
 

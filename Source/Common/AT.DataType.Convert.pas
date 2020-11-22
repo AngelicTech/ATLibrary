@@ -1,3 +1,31 @@
+// ******************************************************************
+//
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
+//
+// Filename       : AT.DataType.Convert.pas
+// Date Created   : 22-Nov-2020
+// Author         : Matthew Vesperman
+//
+// Description:
+//
+// Contains routines to convert data types.
+//
+// Revision History:
+//
+// v1.00   :   Initial version
+//
+// ******************************************************************
+//
+// COPYRIGHT © 2020 - PRESENT Angelic Technology
+// ALL RIGHTS RESERVED WORLDWIDE
+//
+// ******************************************************************
+
+/// <summary>
+///   Contains routines to convert data types.
+/// </summary>
 unit AT.DataType.Convert;
 
 interface

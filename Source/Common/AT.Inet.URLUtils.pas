@@ -1,19 +1,20 @@
 //****************************************************************************
 //
-//  Program Name   : - AT Library -
-//  Program Version: 1.00
-//  Filenames      : AT.Web.URLUtils.pas
-//  File Version   : 1.00
-//  Date Created   : 28-JAN-2014
-//  Author         : Matthew S. Vesperman
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
 //
-//  Description:
+// Filename       : AT.Inet.URLUtils.pas
+// Date Created   : 28-JAN-2014
+// Author         : Matthew Vesperman
 //
-//  Angelic Tech internet url functions... (Migrated from SSURLUtils.pas)
+// Description:
 //
-//  Revision History:
+// Angelic Tech internet url functions... (Migrated from SSURLUtils.pas)
 //
-//    v1.00   :   Initial version for Delphi XE5.
+// Revision History:
+//
+//   v1.00   :   Initial version for Delphi XE5.
 //
 //****************************************************************************
 //
@@ -24,6 +25,9 @@
 
 
 
+/// <summary>
+///   Internet URL encoding/decoding functions.
+/// </summary>
 unit AT.Inet.URLUtils;
 
 interface

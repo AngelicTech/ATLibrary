@@ -2,10 +2,9 @@
 //
 // Program Name   : Single Instance Framework
 // Platform(s)    : Android, iOS, OSX, Linux64, Win32, Win64
-// Framework      : FMX
+// Framework      : Console, FMX, VCL
 //
 // Filename       : AT.SingleInstance.Base.pas
-// File Version   : 1.00
 // Date Created   : 07-Dec-2017
 // Author         : Matthew Vesperman
 //

@@ -1,13 +1,12 @@
 //************************************************************************
 //
-// Program Name   : @Library
-// Program Version: 1.00
-// Platforms      : VCL, FireMonkey
-// Framework      : Win32, Win64, OSX
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
+//
 // Filename       : AT.MRUList.pas
-// File Version   : 1.10
 // Date Created   : 05-AUG-2014
-// Author         : Matthew S. Vesperman
+// Author         : Matthew Vesperman
 //
 // Description:
 //
@@ -25,6 +24,9 @@
 //
 //************************************************************************
 
+/// <summary>
+///   Most-Recently-Used (MRU) File List.
+/// </summary>
 unit AT.MRUList;
 
 interface
@@ -106,7 +108,6 @@ type
     FMRUListeners: IDictionary<String, TATMRUListListener>;
     FOnMRUListChanged: TNotifyEvent;
     FSectionName: string;
-  private
     function GetCount: Integer;
     function GetItems(Index: Integer): TATMRUItem;
     procedure SetCapacity(Value: Integer);

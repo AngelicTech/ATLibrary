@@ -1,19 +1,20 @@
 //****************************************************************************
 //
-//  Program Name   : - AT Library -
-//  Program Version: 1.00
-//  Filenames      : AT.Math.BitOps.pas
-//  File Version   : 1.00
-//  Date Created   : 28-JAN-2014
-//  Author         : Matthew S. Vesperman
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
 //
-//  Description:
+// Filename       : AT.Math.BitOps.pas
+// Date Created   : 28-JAN-2014
+// Author         : Matthew Vesperman
 //
-//  Angelic Tech bit operations... (Migrated from SSMath.pas)
+// Description:
 //
-//  Revision History:
+// Angelic Tech bit operations... (Migrated from SSMath.pas)
 //
-//    v1.00   :   Initial version for Delphi XE5.
+// Revision History:
+//
+//   v1.00   :   Initial version for Delphi XE5.
 //
 //****************************************************************************
 //
@@ -23,6 +24,9 @@
 //****************************************************************************
 
 
+/// <summary>
+///   Bit operations for Byte and Word data types.
+/// </summary>
 unit AT.Math.BitOps;
 
 interface

@@ -1,9 +1,10 @@
-//****************************************************************************
+//*******************************************************************
 //
 // Program Name   : AT Library
-// Program Version: 1.00
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
+//
 // Filename       : AT.Data.ZRF.pas
-// File Version   : 2.00
 // Date Created   : 22-JUL-2014
 // Author         : Matthew S. Vesperman
 //
@@ -18,15 +19,19 @@
 //
 // v2.00   :   (30-OCT-2014)
 //             * Changed to TComponent based class.
-//             + Added file type & version validation. (Manual in apps)
+//             + Added file type & version validation capability.
 //
-//****************************************************************************
+//*******************************************************************
 //
 // COPYRIGHT © 2014 Angelic Technology
 // ALL RIGHTS RESERVED WORLDWIDE
 //
-//****************************************************************************
+//*******************************************************************
 
+/// <summary>
+///   Defines a class to use resources stored in external Zipped
+///   Resource Files.
+/// </summary>
 unit AT.Data.ZRF;
 
 interface
@@ -41,7 +46,6 @@ type
     FFilename: string;
     FMsgProc: TProc<String>;
     FZRFFile: TZipFile;
-  private
     procedure _DoStartMessage(AValue: String);
     function _GetActive: Boolean;
     function _GetResourcesLoaded: Boolean;
@@ -74,7 +78,8 @@ var
 
 implementation
 
-uses AT.GarbageCollector;
+uses
+  AT.GarbageCollector;
 
 {
 ************************************ TATZRF ************************************

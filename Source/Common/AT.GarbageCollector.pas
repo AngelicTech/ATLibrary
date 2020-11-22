@@ -1,12 +1,10 @@
 // ******************************************************************
 //
 // Program Name   : Angelic Tech Common Library
-// Program Version: 2017
 // Platform(s)    : Android, iOS, Linux, OS X, Windows
-// Framework      : None
+// Framework      : Console, FMX, VCL
 //
 // Filename       : AT.GarbageCollector.pas
-// File Version   : 1.10
 // Date Created   : 10-Apr-2017
 // Author         : Matthew Vesperman
 //

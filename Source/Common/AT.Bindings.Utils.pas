@@ -1,3 +1,31 @@
+// ******************************************************************
+//
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
+//
+// Filename       : AT.Bindings.Utils.pas
+// Date Created   : 22-Nov-2020
+// Author         : Matthew Vesperman
+//
+// Description:
+//
+// Contains LiveBindings helper routines.
+//
+// Revision History:
+//
+// v1.00   :   Initial version
+//
+// ******************************************************************
+//
+// COPYRIGHT © 2020 - PRESENT Angelic Technology
+// ALL RIGHTS RESERVED WORLDWIDE
+//
+// ******************************************************************
+
+/// <summary>
+///   Contains LiveBindings helper routines.
+/// </summary>
 unit AT.Bindings.Utils;
 
 interface

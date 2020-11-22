@@ -1,13 +1,11 @@
 // ******************************************************************
 //
-// Program Name   : Angelic Tech Common Library
-// Program Version: 2017
-// Platform(s)    : Android, iOS, Linux, OS X, Windows
-// Framework      : None
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
 //
 // Filename       : AT.Math.Conversion.Length.pas
-// File Version   : 2017.11
-// Date Created   : 19-Nov-2017
+// Date Created   : 19-NOV-2017
 // Author         : Matthew Vesperman
 //
 // Description:

@@ -1,3 +1,33 @@
+// ******************************************************************
+//
+// Program Name   : AT Library
+// Platform(s)    : Android, iOS, Linux, MacOS, Windows
+// Framework      : Console, FMX, VCL
+//
+// Filename       : AT.Automate.pas
+// Date Created   : 22-Nov-2020
+// Author         : Matthew Vesperman
+//
+// Description:
+//
+// Defines managed record types to automate cleanup tasks, freeing
+// object instances and releasing synchronization objects.
+//
+// Revision History:
+//
+// v1.00   :   Initial version
+//
+// ******************************************************************
+//
+// COPYRIGHT © 2020 - PRESENT Angelic Technology
+// ALL RIGHTS RESERVED WORLDWIDE
+//
+// ******************************************************************
+
+/// <summary>
+///   Defines managed record types to automate cleanup tasks, freeing
+///   object instances and releasing synchronization objects.
+/// </summary>
 unit AT.Automate;
 
 interface
@@ -6,8 +36,12 @@ uses
   System.Classes, System.SysUtils, System.SyncObjs;
 
 type
+  /// <summary>
+  ///   Managed record type to automatically run cleanup code when
+  ///   the record variable goes out of scope.
+  /// </summary>
   TATAutoCleanupP = record
-  private
+  strict private
     FProc: TProc;
   public
     constructor Create(const AProc: TProc);
@@ -17,8 +51,12 @@ type
       const [ref] ASrc: TATAutoCleanupP);
   end;
 
+  /// <summary>
+  ///   Managed record type to automatically free objects when the
+  ///   record variable goes out of scope.
+  /// </summary>
   TATAutoFree = record
-  private
+  strict private
     FInstance: TObject;
   public
     constructor Create(const AInstance: TObject);
@@ -28,12 +66,15 @@ type
       const [ref] ASrc: TATAutoFree);
   end;
 
+  /// <summary>
+  ///   Managed record type to automatically release synchronization
+  ///   objects when the record variable goes out of scope.
+  /// </summary>
   TATAutoLock = record
-  private
+  strictprivate
     FSyncObj: TSynchroObject;
   public
     constructor Create(const ASyncObj: TSynchroObject);
-  public
     class operator Initialize(out ADest: TATAutoLock);
     class operator Finalize(var ADest: TATAutoLock);
     class operator Assign(var ADest: TATAutoLock;
