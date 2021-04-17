@@ -36,7 +36,7 @@ uses
   {$ENDIF}
   System.Classes, AT.Config.Storage.Custom, System.SysUtils,
   Data.DB, DBAccess, AT.GarbageCollector, System.SyncObjs,
-  Uni, UniProvider, SQLiteUniProvider, AT.Config.Storahe.Intf;
+  Uni, UniProvider, SQLiteUniProvider, AT.Config.Storage.Intf;
 
 type
   EATCfgSQLite3Encrypted = class(Exception)
@@ -46,7 +46,7 @@ type
   end;
 
   TATConfigSQLite3Storage = class(TATCustomConfigStorage,
-      ICfgStgDelete, ICfgStgQuery, ICfgStgRead, ICfgStgWrite))
+      ICfgStgDelete, ICfgStgQuery, ICfgStgRead, ICfgStgWrite)
   strict private
     FProvider: TSQLiteUniProvider;
     FConnection: TUniConnection;
@@ -284,6 +284,11 @@ begin
 
   if (Updating) then
     EndUpdate;
+
+  {$IF Defined(MSWINDOWS)}
+  FMutex.Free;
+  {$ENDIF}
+
 
   inherited Destroy;
 end;
